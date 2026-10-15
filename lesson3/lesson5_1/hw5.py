@@ -3,7 +3,7 @@ import csv
 import json
 
 
-#  1.  ID
+#  1.  ID тестов
 
 def save_test_ids(test_ids):
     with open("tests.txt", "w", encoding="utf-8") as file:
